@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Josefin+Sans:wght@300&family=Plus+Jakarta+Sans:wght@200&family=Poppins:wght@200;300;400&display=swap"
+        rel="stylesheet">
+    <title>Photo Collection</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="  background: linear-gradient(to right, #68C0FF, #FF7AE6);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-family: 'DM Sans', sans-serif;">Log-In</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                            style="font-family: 'DM Sans', sans-serif;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" style="font-family: 'DM Sans', sans-serif;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product" style="font-family: 'DM Sans', sans-serif;">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news" style="font-family: 'DM Sans', sans-serif;">News</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="s1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Selamat Datang Pejuang!</h5>
+                    <p>Disini Akan menemukan banyak pengalaman menarik dari seluruh mahasiswa Indonesia lohh</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="s2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Benefit</h5>
+                    <p>Disini Anda akan mendapatkan banyak benefit, tunggu apa lagi? Segera Daftar!!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="s3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Recruitment Volunteer</h5>
+                    <p>Anda ingin menjadi tutor di Tutorku.Id? Mudah banget silahkan tekan link Log-In lalu creat new
+                        acount dan isilah data lengkap Anda</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- lawyanan -->
+    <div id="about">
+        <p class="fs-2" style="font-family: 'DM Sans', sans-serif; text-align: center; padding-top: 40px;">Layanan
+            Tutorku.Id</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5" style="text-align: center;">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <img src="logo.png" class="rounded-circle" style="width: 30%; height: 30%;" alt="...">
+                    <h5 class="card-title">Kelas Offline</h5>
+                    <p class="card-text" style="font-size: 15px;">Kami menyelenggarakan kelas online di berbagai lokasi,
+                        dengan sesi interaktif bersama peserta didik untuk membuat pembelajaran lebih menyenangkan.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <img src="logo.png" class="rounded-circle" style="width: 30%; height: 30%;" alt="...">
+                    <h5 class="card-title">Kelas Online</h5>
+                    <p class="card-text" style="font-size: 15px;">Disini Tutorku.Id juga menyelenggarakan kelas online
+                        dengan berbagai materi pembelajaran, memungkinkan interaksi antara peserta didik dan pengajar,
+                        serta menjadikan pengalaman belajar yang menyenangkan.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <img src="logo.png" class="rounded-circle" style="width: 30%; height: 30%;" alt="...">
+                    <h5 class="card-title">Open Volunteer</h5>
+                    <p class="card-text" style="font-size: 15px;">Kami membuka pendaftaran volunteer bagi mahasiswa
+                        berminat untuk ikut serta dalam kegiatan kami. Daftar segera di situs kami!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- layanann end -->
+
+    <!-- produk -->
+    <div id="product">
+        <p class="fs-2" style="font-family: 'DM Sans', sans-serif; text-align: center; padding-top: 40px;">Daftar Kelas
+        </p>
+    </div>
+    <div class="card mx-5">
+        <div class="card-body">
+            <h5 class="card-title">Kelas Online dan Offline</h5>
+            <p class="card-text" style="font-size: 15px;">Di sini, kami menawarkan dua opsi pembelajaran: kelas online
+                🌐 dan kelas offline 🏫. Anda bebas memilih sesuai keinginan Anda. Tidak hanya itu, Anda diperbolehkan
+                mengikuti lebih dari satu kelas, baik itu dari segi mata pelajaran maupun jenis pembelajaran, seperti
+                kelas online dan offline. Kami ingin memastikan Anda dapat menyesuaikan pembelajaran sesuai kebutuhan
+                dan preferensi Anda. Daftar sekarang untuk pengalaman pembelajaran yang lebih fleksibel! 🎓✨</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+        <div class="col">
+            <div class="card h-10 shadow p-2 mb-5 bg-body-tertiary rounded">
+                <img src="1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Online & Offline</h5>
+                    <p class="card-text" style="font-size: 15px;">"Sesi kelas interaktif bersama tutor terbaik dari
+                        seluruh Indonesia dengan
+                        Tutorku.id segera daftarkan diri Anda."</p>
+                    <a class="btn btn-primary" href="daftar.html">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-10 shadow p-2 mb-5 bg-body-tertiary rounded">
+                <img src="2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Online & Offline</h5>
+                    <p class="card-text" style="font-size: 15px;">"Sesi kelas interaktif bersama tutor terbaik dari
+                        seluruh Indonesia dengan
+                        Tutorku.id segera daftarkan diri Anda."</p>
+                    <a class="btn btn-primary" href="daftar.html">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-10 shadow p-2 mb-5 bg-body-tertiary rounded">
+                <img src="3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Online & Offline</h5>
+                    <p class="card-text" style="font-size: 15px;">"Sesi kelas interaktif bersama tutor terbaik dari
+                        seluruh Indonesia dengan
+                        Tutorku.id segera daftarkan diri Anda."</p>
+                    <a class="btn btn-primary" href="daftar.html">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-10 shadow p-2 mb-5 bg-body-tertiary rounded">
+                <img src="4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Online & Offline</h5>
+                    <p class="card-text" style="font-size: 15px;">"Sesi kelas interaktif bersama tutor terbaik dari
+                        seluruh Indonesia dengan
+                        Tutorku.id segera daftarkan diri Anda."</p>
+                    <a class="btn btn-primary" href="daftar.html">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-10 shadow p-2 mb-5 bg-body-tertiary rounded">
+                <img src="5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Online & Offline</h5>
+                    <p class="card-text" style="font-size: 15px;">"Sesi kelas interaktif bersama tutor terbaik dari
+                        seluruh Indonesia dengan
+                        Tutorku.id segera daftarkan diri Anda."</p>
+                    <a class="btn btn-primary" href="daftar.html">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-10 shadow p-2 mb-5 bg-body-tertiary rounded">
+                <img src="6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Online & Offline</h5>
+                    <p class="card-text" style="font-size: 15px;">"Sesi kelas interaktif bersama tutor terbaik dari
+                        seluruh Indonesia dengan
+                        Tutorku.id segera daftarkan diri Anda."</p>
+                    <a class="btn btn-primary" href="daftar.html">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- prosuk end -->
+
+    <!-- News -->
+    <div class="fs-2" style="font-family: 'DM Sans', sans-serif; text-align: center; padding: 40px;" id="news">
+        <p>News</p>
+        <p style="font-size: medium;">Berita seputar Tutorku.Id</p>
+    </div>
+    <div class="card mb-3 mx-5 mt-1" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="n1.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title"> Tutorku.Id Sertifikat</h5>
+                    <p class="card-text" style="font-size: 15px;"> Hallo teman-teman, bagi kalian yang telah
+                        menyelesaikan pembelajaran sampai akhir
+                        bersama Tutorku.Id silahkan segera tekan tombol dibawah ini dan isi data anda untuk pengambilan
+                        E-Sertifikat</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3 mx-5" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="n2.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Segera dibuka kelas Tutorku.Id Batch 2</h5>
+                    <p class="card-text" style="font-size: 15px;">Hallo teman-teman, Tutorku.Id sedang mempersiapkan
+                        materi dan kompetisi dasar yang akan
+                        dicapai untuk kelas batch 2</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3 mx-5" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="n3.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Kelas Tutorku.Id Batch 1 Masih Dibuka</h5>
+                    <p class="card-text" style="font-size: 15px;">Hallo teman-teman, menanggapi banyaknya pertanyaan
+                        tentang kelas batch 1, kami
+                        informasikan kelas batch 1 masih tetap dan akan terus berjalan. Jadi tenang saja bagi kalian
+                        yang baru
+                        bergabung jangan takut ketinggalan..</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- news end -->
+
+    <!-- penilaian -->
+    <div>
+        <p class="fs-2" style="font-family: 'DM Sans', sans-serif; text-align: center; margin-top: 60px;">Orang Menilai
+            Kami</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+        <div class="col">
+            <h4 style="text-align: center;">Raihan Mantero</h2>
+                <p style="text-align: center; font-size: 15px;">Bagus banget cara mengajar tutor offline nya apalagi
+                    harganya sangat terjangkau hanya seribu saja per orang dalam sekali pertemuan, dan sekarang anak
+                    anak di kompleks saya tidak hanya bermain, tapi juga belajar. Terimakasih tutorkuid</p>
+                <p style="text-align: center;">⭐⭐⭐⭐⭐</p>
+        </div>
+        <div class="col">
+            <h4 style="text-align: center;">Erna Emilia</h2>
+                <p style="text-align: center; font-size: 15px;">Saya menjadi cepat mengerti dengan mengikuti sesi
+                    belajar di Tutorku.Id apalagi pengajarnya juga mahasiswa sehingga bahasa yang digunakan juga bisa
+                    dibilang sama seperti saya</p>
+                <p style="text-align: center;">⭐⭐⭐⭐⭐</p>
+        </div>
+        <div class="col">
+            <h4 style="text-align: center;">Nanang</h2>
+                <p style="text-align: center; font-size: 15px;">Saya sangat menyukai platform ini, karena dengan
+                    platform ini anak saya bisa tetap belajar dimaanapun dan tidak hanya menggunakan hp nya untuk
+                    bermain free fire</p>
+                <p style="text-align: center;">⭐⭐⭐⭐⭐</p>
+        </div>
+    </div>
+    <!-- penilaian end -->
+
+
+    <!-- akhiran -->
+    <footer style="  background: linear-gradient(to right, #68C0FF, #FF7AE6);">
+        <div class="fs-2" style="padding: 20px;">
+            <p style="font-size: large;">Contact</p>
+            <p style="font-size: 15px;">Email: @tutorkuid99@gmail.com<br>
+                Phone: +62-815-6390-3391</p>
+        </div>
+        <hr>
+        <div class="fs-2" style="text-align: center;">
+            <p style="font-size: large;">Follow Us</p>
+            <div style="display: flex; justify-content: center;">
+                <div class="social-icons" style="text-align: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg>
+                    <i class="bi bi-instagram" style="font-size: 14px;"><a
+                            href="https://www.instagram.com/tutorku.id_officical/" target="_blank"
+                            style="text-decoration: none; font-size: small; color: black;">Instagram</a></i>
+                </div>
+                <div class="social-icons mx-2" style="text-align: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                    </svg>
+                    <i class="bi bi-envelope"><a href="#" target="_blank"
+                            style="text-decoration: none; font-size: small; color: black;">Email</a></i>
+                    <i class="bi bi-instagram" style="font-size: 14px;"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- akhiran end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
